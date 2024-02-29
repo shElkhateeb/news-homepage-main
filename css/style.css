@@ -15,6 +15,15 @@
   --font-wght-thick: 800;
 }
 
+body {
+    font-family: Inter, sans-serif;
+}
+
+p {
+    font-size: calc(1rem * 15 /16);
+    color: var(--color-medium, gray);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
