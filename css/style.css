@@ -87,7 +87,7 @@ aside.horizontal {
 }
 .img-article h3 {
     color: var(--color-dark, black);
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     font-weight: var(--font-wght-thick);
 }
 /* end main */
