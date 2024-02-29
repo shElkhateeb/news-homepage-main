@@ -93,6 +93,9 @@ aside.horizontal {
 /* end main */
 
 /* start footer */
+footer {
+    padding-top: var(--padding-main);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
