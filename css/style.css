@@ -13,17 +13,40 @@
   --font-wght-thin: 400;
   --font-wght-medium: 700;
   --font-wght-thick: 800;
+  --padding-main: 5vw;
 }
-
 body {
     font-family: Inter, sans-serif;
 }
+
+/* start header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - var(--padding-main) * 4);
+    margin-inline: auto;
+    padding: var(--padding-main) 0;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin-right: 3rem;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-medium);
+}
+/* end header */
 
 p {
     font-size: calc(1rem * 15 /16);
     color: var(--color-medium, gray);
 }
 
+/* start footer */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -31,3 +54,4 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* end footer */
