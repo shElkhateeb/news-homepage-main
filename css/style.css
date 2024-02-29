@@ -1,15 +1,18 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 :root {
-    --color-main-red: hsl(5, 85%, 63%);
-    --color-main-orange: hsl(35, 77%, 62%);
-    --color-dark: hsl(240, 100%, 5%);
-    --color-medium: hsl(236, 13%, 42%);
-    --color-light: hsl(233, 8%, 79%);
-    --color-white: hsl(36, 100%, 99%);
+  --color-main-red: hsl(5, 85%, 63%);
+  --color-main-orange: hsl(35, 77%, 62%);
+  --color-dark: hsl(240, 100%, 5%);
+  --color-medium: hsl(236, 13%, 42%);
+  --color-light: hsl(233, 8%, 79%);
+  --color-white: hsl(36, 100%, 99%);
+  --font-wght-thin: 400;
+  --font-wght-medium: 700;
+  --font-wght-thick: 800;
 }
 
 .attribution {
