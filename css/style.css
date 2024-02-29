@@ -75,8 +75,20 @@ aside.horizontal {
     gap: calc(var(--padding-main) / 2);
 }
 .img-article {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: calc(var(--padding-main) / 2);
+    line-height: 1.7;
+}
+.img-article .index {
+    color: var(--color-light, lightgray);
+    font-size: 2rem;
+    font-weight: var(--font-wght-medium);
+}
+.img-article h3 {
+    color: var(--color-dark, black);
+    font-size: 1.1rem;
+    font-weight: var(--font-wght-thick);
 }
 /* end main */
 
