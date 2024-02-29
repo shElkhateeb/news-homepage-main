@@ -22,7 +22,7 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <h1>
         <img src="./assets/images/logo.svg" alt="logo" />
       </h1>
@@ -36,11 +36,9 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <section class="main-news">
-        <div>
-          <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
-        </div>
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
         <h2>The Bright Future of Web 3.0?</h2>
         <div>
           <p>
@@ -72,36 +70,33 @@
           </p>
         </article>
       </aside>
-      <aside>
-        <article>
+      <aside class="horizontal">
+        <article class="img-article">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="Retro PCs" />
           <div>
-            <img src="./assets/images/image-retro-pcs.jpg" alt="Retro PCs" />
+            <div class="index">01</div>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
           </div>
-          <div class="index">01</div>
-          <h3>Reviving Retro PCs</h3>
-          <p>What happens when old PCs are given modern upgrades?</p>
         </article>
-        <article>
+        <article class="img-article">
+          <img src="./assets/images/image-top-laptops.jpg" alt="Top Laptops" />
           <div>
-            <img
-              src="./assets/images/image-top-laptops.jpg"
-              alt="Top Laptops"
-            />
+            <div class="index">02</div>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
           </div>
-          <div class="index">02</div>
-          <h3>Top 10 Laptops of 2022</h3>
-          <p>Our best picks for various needs and budgets.</p>
         </article>
-        <article>
+        <article class="img-article">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="Gaming Growth"
+          />
           <div>
-            <img
-              src="./assets/images/image-gaming-growth.jpg"
-              alt="Gaming Growth"
-            />
+            <div class="index">03</div>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
           </div>
-          <div class="index">03</div>
-          <h3>The Growth of Gaming</h3>
-          <p>How the pandemic has sparked fresh opportunities.</p>
         </article>
       </aside>
     </main>
